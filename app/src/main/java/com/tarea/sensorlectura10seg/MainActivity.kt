@@ -86,6 +86,7 @@ fun SensorScreen(modifier: Modifier = Modifier, sensorViewModel: SensorViewModel
             Text(
                 text = sensorViewModel.temperatureData.value[index],
                 modifier = Modifier.padding(8.dp)
+
             )
         }
     }
